@@ -1,30 +1,15 @@
-### IntelliJ IDEA ###
+# Compilados
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+target/
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Base de datos SQLite (se genera al ejecutar la app)
+*.db
+*.db-journal
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# IDE
+.idea/
+*.iml
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Sistema
 .DS_Store
